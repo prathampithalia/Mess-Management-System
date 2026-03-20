@@ -1,0 +1,109 @@
+/* Login Page Styles */
+.login-page {
+  min-height: 100vh;
+  background: #f9fafb;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-family: system-ui, -apple-system, sans-serif;
+  padding: 1rem;
+}
+
+.login-card {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 16px;
+  padding: 2rem 1.75rem;
+  width: 100%;
+  max-width: 360px;
+}
+
+.login-app-name {
+  font-size: 13px;
+  font-weight: 600;
+  color: #aaa;
+  margin-bottom: 1rem;
+  letter-spacing: 0.04em;
+}
+
+.login-heading {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #111;
+  margin: 0 0 1.25rem 0;
+}
+
+.login-tabs {
+  display: flex;
+  gap: 0.25rem;
+  background: #f3f4f6;
+  border-radius: 8px;
+  padding: 3px;
+  margin-bottom: 1.25rem;
+}
+
+.login-tab {
+  flex: 1;
+  padding: 0.45rem 0;
+  border-radius: 6px;
+  border: none;
+  background: transparent;
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #888;
+  cursor: pointer;
+  transition: background 0.15s, color 0.15s;
+}
+
+.login-tab.active {
+  background: #fff;
+  color: #111;
+  font-weight: 600;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.08);
+}
+
+.login-form {
+  display: flex;
+  flex-direction: column;
+  gap: 0.65rem;
+}
+
+.login-input {
+  padding: 0.65rem 0.875rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  outline: none;
+  background: #fafafa;
+  color: #111;
+  width: 100%;
+  box-sizing: border-box;
+  transition: border-color 0.15s;
+}
+
+.login-err {
+  margin: 0;
+  font-size: 0.8rem;
+  color: #ef4444;
+}
+
+.login-err.success {
+  color: #16a34a;
+}
+
+.login-btn {
+  background: #111;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 0.7rem;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 0.25rem;
+  transition: opacity 0.15s;
+}
+
+.login-btn:disabled {
+  opacity: 0.7;
+}

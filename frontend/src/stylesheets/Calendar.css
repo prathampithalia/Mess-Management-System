@@ -1,0 +1,136 @@
+/* Calendar Page Styles */
+.calendar-page {
+  min-height: 100vh;
+  background: #f9fafb;
+  padding: 2rem 1rem;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.calendar-container {
+  max-width: 480px;
+  margin: 0 auto;
+}
+
+.calendar-header {
+  margin-bottom: 1.5rem;
+}
+
+.calendar-title {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #111;
+  margin: 0;
+}
+
+.calendar-subtitle {
+  color: #888;
+  font-size: 0.875rem;
+  margin: 0.25rem 0 0 0;
+}
+
+/* Cancel section */
+.calendar-cancel-section {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.calendar-section-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.75rem;
+}
+
+.calendar-date-input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  margin-bottom: 0.75rem;
+  box-sizing: border-box;
+  background: #fafafa;
+  color: #333;
+  outline: none;
+}
+
+.calendar-btn-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.calendar-cancel-btn {
+  flex: 1;
+  padding: 0.55rem 0;
+  border-radius: 8px;
+  font-size: 0.875rem;
+  font-weight: 600;
+  border: none;
+  cursor: pointer;
+  transition: background 0.2s;
+}
+
+.calendar-cancel-btn.lunch {
+  background: #fef2f2;
+  color: #ef4444;
+}
+
+.calendar-cancel-btn.lunch:disabled {
+  background: #f3f4f6;
+  color: #bbb;
+  cursor: not-allowed;
+}
+
+.calendar-cancel-btn.dinner {
+  background: #fef2f2;
+  color: #ef4444;
+}
+
+.calendar-cancel-btn.dinner:disabled {
+  background: #f3f4f6;
+  color: #bbb;
+  cursor: not-allowed;
+}
+
+.calendar-cancel-msg {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.8rem;
+  color: #888;
+}
+
+.calendar-cutoff-note {
+  margin: 0.5rem 0 0 0;
+  font-size: 0.75rem;
+  color: #ccc;
+}
+
+.calendar-loading {
+  text-align: center;
+  color: #aaa;
+}
+
+/* Calendar views */
+.calendar-meal-section {
+  margin-bottom: 1.5rem;
+}
+
+.calendar-meal-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.calendar-meal-box {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 12px;
+  padding: 1rem;
+}

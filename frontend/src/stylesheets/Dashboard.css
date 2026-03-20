@@ -1,0 +1,242 @@
+/* Dashboard Styles */
+.dashboard-page {
+  min-height: 100vh;
+  background: #f9fafb;
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 3rem 1rem;
+  font-family: system-ui, -apple-system, sans-serif;
+}
+
+.dashboard-container {
+  width: 100%;
+  max-width: 420px;
+}
+
+.dashboard-header {
+  margin-bottom: 1.5rem;
+}
+
+.dashboard-title {
+  font-size: 1.6rem;
+  font-weight: 700;
+  color: #111;
+  margin: 0;
+}
+
+.dashboard-muted {
+  color: #aaa;
+  font-size: 0.9rem;
+}
+
+.dashboard-card {
+  background: #fff;
+  border: 1px solid #f0f0f0;
+  border-radius: 14px;
+  padding: 1.25rem;
+  margin-bottom: 1rem;
+}
+
+.dashboard-card-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  margin-bottom: 0.75rem;
+}
+
+.dashboard-plan-name {
+  font-size: 1.2rem;
+  font-weight: 700;
+  color: #111;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-badge {
+  display: inline-block;
+  background: #f0fdf4;
+  color: #16a34a;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 2px 10px;
+  border-radius: 99px;
+  margin-bottom: 0.75rem;
+}
+
+.dashboard-meta-grid {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 0.75rem;
+}
+
+.dashboard-meta-item {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.dashboard-meta-label {
+  font-size: 11px;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.dashboard-meta-val {
+  font-size: 1.1rem;
+  font-weight: 700;
+  color: #111;
+}
+
+.dashboard-meta-of {
+  font-size: 0.85rem;
+  font-weight: 400;
+  color: #aaa;
+}
+
+.dashboard-progress-wrap {
+  background: #f3f4f6;
+  border-radius: 99px;
+  height: 5px;
+  overflow: hidden;
+}
+
+.dashboard-progress-bar {
+  height: 100%;
+  background: #22c55e;
+  border-radius: 99px;
+  transition: width 0.4s;
+}
+
+.dashboard-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.dashboard-primary-btn {
+  display: block;
+  background: #111;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9rem;
+  padding: 0.7rem 1.25rem;
+  border-radius: 10px;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.dashboard-ghost-btn {
+  background: transparent;
+  color: #888;
+  font-weight: 500;
+  font-size: 0.875rem;
+  padding: 0.6rem 1.25rem;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  cursor: pointer;
+}
+
+.dashboard-plan-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.dashboard-plan-btn {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  padding: 0.75rem 1rem;
+  border-radius: 10px;
+  border: 1px solid #e5e7eb;
+  background: #fafafa;
+  cursor: pointer;
+  text-align: left;
+  transition: border-color 0.15s, background 0.15s;
+}
+
+.dashboard-plan-btn.active {
+  border: 1.5px solid #111;
+  background: #fff;
+}
+
+.dashboard-plan-btn-label {
+  font-size: 0.9rem;
+  font-weight: 600;
+  color: #111;
+}
+
+.dashboard-plan-btn-meals {
+  font-size: 0.8rem;
+  color: #aaa;
+}
+
+.dashboard-sub-label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #aaa;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  margin-bottom: 0.5rem;
+}
+
+.dashboard-pref-row {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.dashboard-pref-btn {
+  flex: 1;
+  padding: 0.6rem;
+  border-radius: 8px;
+  border: 1px solid #e5e7eb;
+  background: #fafafa;
+  font-size: 0.875rem;
+  font-weight: 600;
+  color: #555;
+  cursor: pointer;
+}
+
+.dashboard-pref-btn.active {
+  border: 1.5px solid #111;
+  background: #fff;
+  color: #111;
+}
+
+.dashboard-date-input {
+  width: 100%;
+  padding: 0.6rem 0.75rem;
+  border: 1px solid #e5e7eb;
+  border-radius: 8px;
+  font-size: 0.9rem;
+  background: #fafafa;
+  color: #333;
+  outline: none;
+  box-sizing: border-box;
+}
+
+.dashboard-err-text {
+  margin-top: 0.5rem;
+  color: #ef4444;
+  font-size: 0.8rem;
+}
+
+.dashboard-confirm-btn {
+  margin-top: 1.25rem;
+  width: 100%;
+  text-align: center;
+  text-decoration: none;
+}
+
+.dashboard-pref-section {
+  margin-top: 1rem;
+}
+
+.dashboard-date-section {
+  margin-top: 1rem;
+}

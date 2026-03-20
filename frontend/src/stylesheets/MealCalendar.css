@@ -1,0 +1,80 @@
+/* MealCalendar Component Styles */
+.meal-calendar-wrap {
+  font-family: system-ui, -apple-system, sans-serif;
+  padding: 1rem 0;
+}
+
+.meal-calendar-stats {
+  display: flex;
+  gap: 1.5rem;
+  margin-bottom: 1rem;
+  padding: 0.75rem 1rem;
+  background: #f9fafb;
+  border-radius: 10px;
+  align-items: center;
+}
+
+.meal-calendar-stat-item {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 13px;
+  color: #555;
+}
+
+.meal-calendar-stat-label {
+  color: #888;
+  font-size: 12px;
+}
+
+.meal-calendar-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  border-radius: 3px;
+  flex-shrink: 0;
+}
+
+.meal-calendar-grid {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  gap: 5px;
+}
+
+.meal-calendar-day-label {
+  text-align: center;
+  font-size: 10px;
+  color: #bbb;
+  font-weight: 600;
+  padding-bottom: 4px;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+}
+
+.meal-calendar-cell {
+  aspect-ratio: 1;
+  border-radius: 6px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+  font-weight: 500;
+  user-select: none;
+  transition: opacity 0.15s;
+}
+
+.meal-calendar-legend {
+  display: flex;
+  gap: 14px;
+  margin-top: 12px;
+  flex-wrap: wrap;
+  align-items: center;
+  font-size: 11px;
+  color: #888;
+}
+
+.meal-calendar-legend-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
