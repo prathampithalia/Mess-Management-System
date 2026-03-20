@@ -73,7 +73,7 @@ exports.getUserDetail = async (req, res) => {
 exports.updateUserPlan = async (req, res) => {
   try {
     const { userId } = req.params;
-    const { planType, mealPreference, mealsRemaining, totalMeals } = req.body;
+    const { planType, mealPreference, totalMeals } = req.body;
     const plan = await Plan.findOne({ userId }).sort({ _id: -1 });
     if (!plan) return res.status(404).json({ msg: "No plan found for this user" });
     if (planType !== undefined) plan.planType = planType;
